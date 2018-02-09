@@ -1,16 +1,20 @@
+;{material_bed_temperature} Unused parameter to prevent cura from adding temperature
+;{material_print_temperature} Another unused parameter
+
 G21                                 ;metric values
 G90                                 ;absolute positioning
 M82                                 ;set extruder to absolute mode
 
-M140 S{material_bed_temperature}    ;set the bed temperature and continue on
+M140 S65                            ;set the bed temperature and continue on
+
 
 G28                                 ;Auto home (all axes)
 G29                                 ;Auto bed leveling
 
 M104 S100                           ;already start heating up the extruder
-M190 S{material_bed_temperature}    ;wait for the bed to be heated up
-M104 S{material_print_temperature}  ;set the extruder temperature and continue on
-M109 S{material_print_temperature}  ;wait for the extruder temperature
+M190 S65                            ;wait for the bed to be heated up
+M104 S200                           ;set the extruder temperature and continue on
+M109 S200                           ;wait for the extruder temperature
 
 M107                                ;start with the fan off
 
