@@ -1,4 +1,4 @@
-# anet-a6
+# ANET A6 3D Printer
 Configuration and files for my ANET A6 printer. 
 
 ## Printer Upgrades
