@@ -8,9 +8,13 @@ Configuration and files for my ANET A6 printer.
 * Mosfet heated bed control
 * Inductive Sensor Probe
 * Marlin 1.1.8 Firmware
+* 80mm fan for power suply
+* LED Lights
+* Soldered heated bed connection
 * Fan duct printed: https://www.thingiverse.com/thing:2013199
 * Y-Belt Holder printed: https://www.thingiverse.com/thing:2347849
 * X-Axis tensioner printed: https://www.thingiverse.com/thing:2308226
+* Filament guide printed: https://www.thingiverse.com/thing:1980281
 
 ## In this repository
 ### Markin Firmware Settings
