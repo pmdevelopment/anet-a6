@@ -12,10 +12,8 @@ G90                                 ;absolute positioning
 M82                                 ;set extruder to absolute mode
 
 M140 S60                            ;set the bed temperature and continue on
-M190 S60                            ;Wait for 60 degrees
-M140 S70                            ;Set to 70 degrees
-
 M104 S150                           ;already start heating up the extruder
+
 M190 S70                            ;wait for the bed to be heated up
 M104 S220                           ;set the extruder temperature and continue on
 M109 S220                           ;wait for the extruder temperature
