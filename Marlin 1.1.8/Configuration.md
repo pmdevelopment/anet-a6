@@ -15,7 +15,11 @@ Waiting for stable bed temperature      | 10            | 6         | #define TE
 
 These settings depend on the hardware and parts used.
 
-### Sensor: LJ18A3-8-Z/BX (Inductive 8mm)
+### Sensor
+
+#### LJ18A3-8-Z/BX (Inductive 8mm)
+
+[Amazon](http://amzn.to/2I8QVjB)
 
 Option                                  | Setting 
 --------------------------------------- | -----------------------
@@ -28,7 +32,11 @@ Repetition per probe                    | #define MULTIPLE_PROBING 2
 Type of leveling                        | #define AUTO_BED_LEVELING_LINEAR
 
 
-### Mount: Thingiverse 2586179
+### Mount
+ 
+#### Thingiverse 2586179
+
+[Download](https://www.thingiverse.com/thing:2586179)
 
 Option                                  | Setting 
 --------------------------------------- | -----------------------
