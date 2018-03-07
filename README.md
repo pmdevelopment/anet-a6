@@ -17,15 +17,12 @@ Configuration and files for my ANET A6 printer.
 * Filament guide printed: https://www.thingiverse.com/thing:1980281
 
 ## In this repository
-### Markin Firmware Settings
 
-Comming soon!
-My configuration file for auto leveling, using this sensor mount: https://www.thingiverse.com/thing:2609797
+### Marlin 1.1.8 Firmware Settings
 
-Don't forget to use your custom Z_PROBE_OFFSET_FROM_EXTRUDER!
+Documentation for [Configuration.h](Marlin%201.1.8/Configuration.md) File.
 
+### Cura 3.2.1
 
-### Cura 3.2
-
-Start and End Gcode Settings for Cura slicing, using the auto level sensor
+Start and End G-Code Settings for Cura slicing, using the auto level sensor
 
