@@ -19,7 +19,7 @@ Disable safe Z homing                   | //#define Z_SAFE_HOMING
 
 ## Auto Leveling Settings
 
-These settings depend on the hardware and parts used.
+### Universal
 
 Option                                  | Setting 
 --------------------------------------- | -----------------------
