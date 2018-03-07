@@ -10,10 +10,20 @@ Waiting for stable extruder temperature | 10            | 6         | #define TE
 Waiting for stable bed temperature      | 10            | 6         | #define TEMP_BED_RESIDENCY_TIME 6
 
 
+## Manual Leveling Settings
+
+Option                                  | Setting 
+--------------------------------------- | -----------------------
+Disable safe Z homing                   | //#define Z_SAFE_HOMING
+
 
 ## Auto Leveling Settings
 
 These settings depend on the hardware and parts used.
+
+Option                                  | Setting 
+--------------------------------------- | -----------------------
+Enable safe Z homing                    | #define Z_SAFE_HOMING
 
 ### Sensor
 
