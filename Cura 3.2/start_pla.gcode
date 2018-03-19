@@ -12,6 +12,10 @@ G90                                 ;absolute positioning
 M82                                 ;set extruder to absolute mode
 
 M140 S50                            ;set the bed temperature and continue on
+
+G1 X0 Y0 F3000                      ;Move to Corner
+G1 Z0    F1500                      ;Lower nozzle to the bed
+
 M190 S50                            ;wait for the heated bed to get some temperature
 
 M140 S65                            ;set the final temperature for the heated bed
