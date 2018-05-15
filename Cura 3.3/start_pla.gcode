@@ -1,11 +1,9 @@
-;PLA: 200° / 65°
+;PLA: Preheats to 140°/50°
 
 ;This start setting doesn't include any auto home or bed leveling commands. Start them yourself
-;before printing. Also it forces the starting temperatures, make sure to remove other commands
-;from the generated gcode.
+;before printing.
 
-;{material_bed_temperature} Unused parameter to prevent cura from adding temperature
-;{material_print_temperature} Another unused parameter
+; Another unused parameter
 
 G21                                 ;metric values
 G90                                 ;absolute positioning
@@ -18,11 +16,11 @@ G1 Z0    F1500                      ;Lower nozzle to the bed
 
 M190 S50                            ;wait for the heated bed to get some temperature
 
-M140 S65                            ;set the final temperature for the heated bed
-M104 S100                           ;already start heating up the extruder
-M190 S65                            ;wait for the bed to be heated up
-M104 S200                           ;set the final extruder temperature and continue on
-M109 S200                           ;wait for the extruder temperature
+M140 S{material_bed_temperature}    ;set the final temperature for the heated bed
+M104 S140                           ;already start heating up the extruder
+M190 S{material_bed_temperature}    ;wait for the bed to be heated up
+M104 S{material_print_temperature}  ;set the final extruder temperature and continue on
+M109 S{material_print_temperature}  ;wait for the extruder temperature
 
 M107                                ;start with the fan off
 
