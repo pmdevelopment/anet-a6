@@ -3,8 +3,6 @@
 ;This start setting doesn't include any auto home or bed leveling commands. Start them yourself
 ;before printing.
 
-; Another unused parameter
-
 G21                                 ;metric values
 G90                                 ;absolute positioning
 M82                                 ;set extruder to absolute mode
